@@ -8,6 +8,6 @@ ECHO Backup Completed!!
 ECHO Starting WSL %WSL_NAME%
 wsl.exe -d %WSL_NAME% exit
 ECHO Compressing the Backup
-"C:\Program Files\7-Zip\7z.exe" a -tzip -sdel "%UserProfile%\Box\WSL-Backup\ubuntu-%MYDATE%.zip" "%UserProfile%\Box\WSL-Backup\ubuntu-%MYDATE%.tar"
+"C:\Program Files\7-Zip\7z.exe" a -tzip -sdel "%UserProfile%\Documents\WSL-Backup\ubuntu-%MYDATE%.zip" "%UserProfile%\Documents\WSL-Backup\ubuntu-%MYDATE%.tar"
 
 PAUSE
